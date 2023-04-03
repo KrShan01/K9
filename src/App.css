@@ -1,0 +1,98 @@
+
+*{
+  box-sizing: border-box;
+}
+
+.App {
+  background: url("https://res.cloudinary.com/dsfejs193/image/upload/v1680538589/K9/K9_mbengx.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: lightgray;
+  
+}
+
+.main {
+  text-align: left;
+  display: flex ;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 100%;
+}
+.Details{
+  padding-left: 5rem;
+}
+.line1{
+  line-height: 0.1;
+}
+
+.line2{
+  line-height: 0.2;
+}
+
+.saved{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.saved .chart-div{
+  border-right:2px solid grey ;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.chart-div__heading{
+  text-align: center;
+}
+
+.chart-div__heading__char{
+  text-align: left;
+}
+
+.chart-div__headingtwo{
+  text-align: center;
+}
+
+.light-h1{
+  color: grey;
+}
+.side-h1{
+  text-align: left;
+  color: grey;
+}
+.chart-div__heading h1{
+  margin: 0;
+}
+
+.chart-div__headingtwo h1{
+  margin: 0;
+  text-align: center;
+}
+
+.chart-div canvas{
+  height: 70% !important;
+}
+
+.row{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.col1{
+  display: flex ;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  height: 43rem;
+}
+
+.col2{
+  padding-top: 2rem;
+  display: flex ;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  height: 43rem;
+}
